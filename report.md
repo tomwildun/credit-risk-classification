@@ -1,14 +1,11 @@
-# Module 12 Report Template
+# Module 20 Credit Risk Classification Report 
 
 ## Overview of the Analysis
 
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+The purpose of this analysis was to see how logistical regression can predic the credit risk of potential lenders. The target value for analysis is loan_status. All other features in csv file were used to predict target. Value_counts helps us see the size of the data set before splitting it up into a training and a testing set. Logistical regression model is used for classification problems with binary values (i.e. healthy (0), high risk(1)).
+  
 
 ## Results
 
@@ -16,15 +13,15 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
-      Accuracy = 99% based on testing of data set
-      Precision = 100% for prediciton of 'healthy loans' within the test data of 18765 records. 85% precision of high risk leans with test data of only 619 records.
-      Recall = 99% for healthy loans. Recall = 91% for high risk loans. This means that the model is more accurate at recording true positives for healthy loans rather than high risk loans.
+  * Accuracy = 99% based on testing of data set
+  * Precision = 100% for prediciton of 'healthy loans' within the test data of 18765 records. 85% precision of high risk loans with test data of only 619 records.
+  * Recall = 99% for healthy loans. Recall = 91% for high risk loans. This means that the model is more accurate at recording true positives for healthy loans rather than high risk loans.
 
 
 
 * Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
-  Machine Learning Model 2 is omitted per Brett Payne. Per Joanna: 
+  * Machine Learning Model 2 is omitted per Brett Payne. Per Joanna: 
   Brett mentioned in the instructor/TA channels the "Predict a Logistic Regression Model with Resampled Training Data" section in the notebook is not required. It used to be taught in this class but isn't anymore.
 
 ## Summary
